@@ -1,0 +1,67 @@
+body{
+    background: url('images/airplane-4885803.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.registerForm{
+    width: 500px;
+    background-color: rgb(0, 0, 0 ,.5);
+    color: white;
+    margin: 20px auto;
+    border-radius: 12px;
+    font-size: 28px;
+}
+h1{
+    text-align: center;
+}
+.registerForm .textlabel{
+    display: block;
+}
+.registerForm .input{
+    margin: auto 25px;
+    
+}
+.registerForm .input input{
+    width: 100%;
+    font-size: 0.8em;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+.btn{
+    text-align: center;
+    margin: auto;
+
+    
+   
+    
+}
+button{
+    font-size: large;
+    background-color:rgba(236, 127, 127, 0.678);
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 20px;
+    
+}
+.registerForm .radioInput input{
+    display: inline;
+    margin: auto 25px;
+   
+}
+input:focus{
+    background-color: rgba(122, 77, 77, 0.678)
+}
+.radioInput input{
+    
+    transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+}
